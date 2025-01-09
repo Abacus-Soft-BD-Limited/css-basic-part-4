@@ -35,6 +35,35 @@ body {
 	cursor: pointer;
 	margin: 20px 20px;
 }
+
+.btn:hover {
+	background-color: orangered;
+	outline: 5px solid orangered;
+	outline-offset: 3px;
+}
+
+.btn-primary {
+	display: block;
+}
+
+.header {
+	background-image: url('../images/Beautiful-Mountain.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 80vh;
+}
+
+.container-image{
+	background-image: url('../images/beautiful-sea.jpg');
+	/* background-position: center center; */
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	/* opacity: 0.1; */
+	
+	height: 80vh;
+}
 .container {
 	height: 200px;
 	width: 200px;
@@ -147,4 +176,6 @@ ul li a:link {
 	color: white;
 	background: #000;
 	z-index: 1;
+}
+
 }
